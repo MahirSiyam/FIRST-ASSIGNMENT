@@ -45,6 +45,10 @@
     border-radius: 8px;
     padding: 17px 34px;
 }
+.btr:hover{
+    color:black;
+    background-color: brown;
+}
 
 /* 2nd part */
 
@@ -141,13 +145,25 @@
 .part-3-btr-1{
     background-color: #5490F5;
 }
+.part-3-btr-1:hover{
+    color:black;
+    background-color: brown;
+}
 
 .part-3-btr-2{
     background-color: #09A15C;
 }
+.part-3-btr-2:hover{
+    color:black;
+    background-color: brown;
+}
 
 .part-3-btr-3{
     background-color: #FFC239;
+}
+.part-3-btr-3:hover{
+    color:black;
+    background-color: brown;
 }
 
 .xx{
@@ -161,8 +177,12 @@
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position: top left;
+    padding: 25px 24px 25px 0px;
+}
+
+.divvv{
     background-color: #FFFFFF;
-    padding: 25px 24px 48px 24px;
+    padding: 25px 24px 25px 20px;
     border-radius: 16px;
 }
 
@@ -288,6 +308,10 @@
     border: none;
     background-color: #FFFFFF;
 }
+.part-6-btr:hover{
+    color:black;
+    background-color: brown;
+}
 
 .part-6-color{
     background-color: #C6E4D6;
@@ -319,9 +343,69 @@
     font-size: 18px;
     font-weight: 700;
 }
+.btr-6-1:hover{
+    color:black;
+    background-color: brown;
+}
 
 /* 7th part: */
 
+.section-4{
+    margin: 80px 160px;
+    background-color: #C6E4D6;
+    padding: 80px 265px;
+}
+
 .part-7-div-1{
     text-align: center;
+}
+
+.part-7-h-3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.part-7-p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 24px;
+}
+
+.in{
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+}
+
+.part-7-input{
+    text-align: left;
+    padding: 18px 403px 18px 40px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.subscribe{
+    padding: 17px 34px;
+    border: none;
+    background-color: #006A50;
+    color: #FFFFFF;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.subscribe:hover{
+    color:black;
+    background-color: brown;
+}
+
+.part-7-email{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.3);
+}
+.part-7-email:hover{
+    color:black;
+    background-color: brown;
 }
